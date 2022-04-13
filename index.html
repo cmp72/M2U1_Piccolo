@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV: Marcelo Piccolo</title>
+    <link rel="preload" href="css/estilo.css" as="style">
+    <!--Esta  línea hace que la hoja 
+                                               se cargue más rápido y tenga una mejor performance-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        <!--Le estoy dando a todo el cuerpo de la página un background gris claro con el atributo background-->
+        body
+        {
+        background:
+        lightgray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--Aquí en h1 pruebo incluir CSS en los elementos-->
+            <h1 style="color: rgb(85, 187, 247); font-family:'Segoe UI', 
+            Tahoma, Geneva, Verdana, sans-serif; text-align: center;" text-transform: uppercase;>Curriculum vitae </h1>
+        </header>
+        <main>
+            <!-- Aquí comienza el contenido principal, los datos más importantes de mi cv-->
+            <img src="img/George Clooney.jpg" width=200px alt="Foto personal">
+
+
+            <section>
+                <!--Comenzamos una sección donde ingresamos nuestros datos personales-->
+                <p>Nombre y Apellido: <font size="2" color="black">Claudio Marcelo Piccolo.</font>
+                </p>
+
+                <p>Dirección: <font size="2" color="black">Santa Clara 21, Girona.</font>
+                </p>
+
+                <p>Estudios: <font size="2" color="black">Técnico superior en Administración y Finanzas.
+                        Cursado en el Institut Obert de Catalunya.
+                        <a href="https://ioc.xtec.cat/educacio/" target="blank">IOC</a>
+                    </font>
+                </p>
+            </section>
+            <!--Aquí finalizamos la sección con nuestros datos personales-->
+            <section class="videoIoc">
+                <!--Sección que utilizo para mostrar un video-->
+                <p>Video IOC</p>
+                <video src="video/IOC - Fundació Joia.mp4" controls width=400px>Video del IOC</video>
+            </section>
+            <!--Finalizo la sección desde la cual mostre un video-->
+
+        </main> <!-- Termina la parte principal de micv, lo que viene después es agregado intrancsendente-->
+        <section class="puestos">
+            <!--En esta sección informo en los puestos a los que estoy dispuesto a trabajar-->
+            <p>Puestos a los que aplico:</p>
+            <ul>
+                <li>Administrativo contable.</li>
+                <li>Administrativo logistica.</li>
+                <li>Controller.</li>
+
+            </ul>
+        </section>
+        <!--Cierro la sección donde informo de los puestos a los que aplico-->
+
+
+        <section>
+            <p>Bandas que quiero que suenen mientras estoy trabajando:</p>
+            <!--Probando listas-->
+
+            <nav>
+                <a href="https://thebeatles.com" target="blank">The Beatles</a>
+                <a href="https://www.pinkfloyd.com " target="balnk">Pink Floyd</a>
+                <a href="https://www.u2.com" target="blank">U2</a>
+                <a href="https://sodastereo.com" target="blank">Soda Stereo</a>
+            </nav>
+            <br><br><br>
+
+
+        </section>
+
+        <section>
+            <!--Comenzamos otra sección para insertar un formulario-->
+
+            <form action="" class="formato">
+                <fieldset>
+                    <legend>Complete el siguiente formulario</legend>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Nombre">
+
+                        <label for="">Apellido</label>
+                        <input type="text" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <label for="">Telefono</label>
+                        <input type="tel" placeholder="Telefono">
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+
+
+                </fieldset>
+
+
+            </form>
+        </section>
+        <!--Finalizamos la sección del formulario-->
+        <br>
+        <br>
+        <footer>
+            Claudio Marcelo Piccolo. 2022.
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+html {
+    font-size: 62, 5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+/*Colocamos las dos líneas anteriores para poder trabajar en vez de con pixeles con rem
+    que se adaptan mejor a cualquier tipo de pantallas (tablets, celulares, relojes, tv)*/
+/*A su vez 1 rem equivale a 10 px*/
+h5 {
+    color: rgb(202, 48, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Le doy estilo a la etiqueta h5, color de letra tipo rosado y 
+    el tipo de letra arial, helvetica o sans-serif*/
+
+
+header {
+    background-color: rgb(238, 9, 9);
+    height: 100px;
+    /* Le doy un fondo rojo al header con background y una altura de 80 pixeles*/
+}
+
+.puestos {
+    /*Le doy estilo a la sección de puestos de trabajo a los que deseo aplicar*/
+    background: greenyellow;
+    color: rgb(238, 9, 9);
+}
+
+.videoIoc {
+    background: rgb(59, 142, 175);
+    color: white;
+    width: 100px;
+}
+
+
+.formato {
+    /*Le doy estilo, color de fondo, de las letras, etc al formulario*/
+    background: yellowgreen;
+    color: rgb(99, 42, 165);
+    border-radius: 3px;
+    border-color: black;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    /* Al footer o pie de página le doy un fondo de color negro con background
+    al texto le doy color blanco con color, centro el texto con text-align, 
+    altura de 50 pixeles a la caja y centro el texto en altura con line-height*/
+}
