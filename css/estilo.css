@@ -4,6 +4,7 @@ html {
 
 body {
     font-size: 16px;
+    background: lightgray;
 }
 
 /*Colocamos las dos líneas anteriores para poder trabajar en vez de con pixeles con rem
@@ -24,23 +25,31 @@ header {
     /* Le doy un fondo rojo al header con background y una altura de 80 pixeles*/
 }
 
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
 .puestos {
     /*Le doy estilo a la sección de puestos de trabajo a los que deseo aplicar*/
-    background: greenyellow;
+
     color: rgb(238, 9, 9);
 }
 
 .videoIoc {
-    background: rgb(59, 142, 175);
-    color: white;
+    
+    color: black;
     width: 100px;
+
 }
 
 
 .formato {
     /*Le doy estilo, color de fondo, de las letras, etc al formulario*/
-    background: yellowgreen;
-    color: rgb(99, 42, 165);
+    background: rgb(155, 224, 184);
+    color: rgb(42, 140, 165);
     border-radius: 3px;
     border-color: black;
 }
