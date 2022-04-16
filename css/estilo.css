@@ -19,24 +19,31 @@ h5 {
 
 /*Le doy estilo a la etiqueta h5, color de letra tipo rosado y 
     el tipo de letra arial, helvetica o sans-serif*/
-
-p{
-    font-size: 2; color: rgb(19, 18, 18);
-}
-h1{
+.datos {
+    font-size: 19px;
+    color: red;
     font-family: 'Arvo', serif;
     font-family: 'Krub', sans-serif;
-    color: rgb(13, 13, 14); 
-    text-align: center;
-    font-size: 75px;
+}
+p {
+    font-size: 15px;
+    color: rgb(19, 18, 18);
 }
 
-.experiencia{
+h1 {
+    font-family: 'Arvo', serif;
+    font-family: 'Krub', sans-serif;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    font-size: 60px;
+}
+
+.experiencia {
     font-size: 30px;
     font-family: 'Arvo', serif;
-font-family: 'Krub', sans-serif;
-text-align: right;
-    
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+
 }
 
 .caja {
@@ -56,19 +63,14 @@ text-align: right;
     column-count: 3;
     column-gap: 25px;
     column-rule: 1px solid;
-
-
-
-
 }
-
+    
 .puestos {
     /*Le doy estilo a la sección de puestos de trabajo a los que deseo aplicar*/
 
     color: rgb(238, 9, 9);
     width: 1200px;
     height: 100px;
-
     background: yellow;
 }
 
@@ -76,8 +78,24 @@ text-align: right;
 
     color: black;
     width: 100px;
+    }
+    .videoIoc p{
+        color:blue;
+    }
 
-}
+    .musica{
+        color:rgb(42, 140, 165);
+        font-size: 50px;
+
+    }
+
+    .redes{
+        color:rgb(42, 140, 165);
+        font-size: 35px;
+    }
+    .contactar { /**/
+        font-size: 20px;
+    }
 
 
 .formato {
